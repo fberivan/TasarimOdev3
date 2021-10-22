@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D321AA582722FB2800549240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA572722FB2800549240 /* AppDelegate.swift */; };
+		D321AA5A2722FB2800549240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA592722FB2800549240 /* SceneDelegate.swift */; };
+		D321AA5C2722FB2800549240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA5B2722FB2800549240 /* ViewController.swift */; };
+		D321AA5F2722FB2800549240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321AA5D2722FB2800549240 /* Main.storyboard */; };
+		D321AA612722FB2A00549240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D321AA602722FB2A00549240 /* Assets.xcassets */; };
+		D321AA642722FB2A00549240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321AA622722FB2A00549240 /* LaunchScreen.storyboard */; };
+		D321AA6F2722FB2A00549240 /* tasarimOdevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA6E2722FB2A00549240 /* tasarimOdevTests.swift */; };
+		D321AA792722FB2A00549240 /* tasarimOdevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA782722FB2A00549240 /* tasarimOdevUITests.swift */; };
+		D321AA7B2722FB2A00549240 /* tasarimOdevUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321AA7A2722FB2A00549240 /* tasarimOdevUITestsLaunchTests.swift */; };
+		D321AA892723110400549240 /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D321AA882723110400549240 /* PatrickHand-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D321AA6B2722FB2A00549240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D321AA4C2722FB2800549240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D321AA532722FB2800549240;
+			remoteInfo = tasarimOdev;
+		};
+		D321AA752722FB2A00549240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D321AA4C2722FB2800549240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D321AA532722FB2800549240;
+			remoteInfo = tasarimOdev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D321AA542722FB2800549240 /* tasarimOdev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tasarimOdev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D321AA572722FB2800549240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D321AA592722FB2800549240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D321AA5B2722FB2800549240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D321AA5E2722FB2800549240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D321AA602722FB2A00549240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D321AA632722FB2A00549240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D321AA652722FB2A00549240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D321AA6A2722FB2A00549240 /* tasarimOdevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tasarimOdevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D321AA6E2722FB2A00549240 /* tasarimOdevTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasarimOdevTests.swift; sourceTree = "<group>"; };
+		D321AA742722FB2A00549240 /* tasarimOdevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tasarimOdevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D321AA782722FB2A00549240 /* tasarimOdevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasarimOdevUITests.swift; sourceTree = "<group>"; };
+		D321AA7A2722FB2A00549240 /* tasarimOdevUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasarimOdevUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D321AA882723110400549240 /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		D321AA8A27234E6200549240 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		D321AA8B27234E6200549240 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D321AA512722FB2800549240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA672722FB2A00549240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA712722FB2A00549240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D321AA4B2722FB2800549240 = {
+			isa = PBXGroup;
+			children = (
+				D321AA562722FB2800549240 /* tasarimOdev */,
+				D321AA6D2722FB2A00549240 /* tasarimOdevTests */,
+				D321AA772722FB2A00549240 /* tasarimOdevUITests */,
+				D321AA552722FB2800549240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D321AA552722FB2800549240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D321AA542722FB2800549240 /* tasarimOdev.app */,
+				D321AA6A2722FB2A00549240 /* tasarimOdevTests.xctest */,
+				D321AA742722FB2A00549240 /* tasarimOdevUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D321AA562722FB2800549240 /* tasarimOdev */ = {
+			isa = PBXGroup;
+			children = (
+				D321AA572722FB2800549240 /* AppDelegate.swift */,
+				D321AA592722FB2800549240 /* SceneDelegate.swift */,
+				D321AA5B2722FB2800549240 /* ViewController.swift */,
+				D321AA5D2722FB2800549240 /* Main.storyboard */,
+				D321AA602722FB2A00549240 /* Assets.xcassets */,
+				D321AA622722FB2A00549240 /* LaunchScreen.storyboard */,
+				D321AA652722FB2A00549240 /* Info.plist */,
+				D321AA87272310F400549240 /* Fonts */,
+			);
+			path = tasarimOdev;
+			sourceTree = "<group>";
+		};
+		D321AA6D2722FB2A00549240 /* tasarimOdevTests */ = {
+			isa = PBXGroup;
+			children = (
+				D321AA6E2722FB2A00549240 /* tasarimOdevTests.swift */,
+			);
+			path = tasarimOdevTests;
+			sourceTree = "<group>";
+		};
+		D321AA772722FB2A00549240 /* tasarimOdevUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D321AA782722FB2A00549240 /* tasarimOdevUITests.swift */,
+				D321AA7A2722FB2A00549240 /* tasarimOdevUITestsLaunchTests.swift */,
+			);
+			path = tasarimOdevUITests;
+			sourceTree = "<group>";
+		};
+		D321AA87272310F400549240 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D321AA882723110400549240 /* PatrickHand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D321AA532722FB2800549240 /* tasarimOdev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D321AA7E2722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdev" */;
+			buildPhases = (
+				D321AA502722FB2800549240 /* Sources */,
+				D321AA512722FB2800549240 /* Frameworks */,
+				D321AA522722FB2800549240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tasarimOdev;
+			productName = tasarimOdev;
+			productReference = D321AA542722FB2800549240 /* tasarimOdev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D321AA692722FB2A00549240 /* tasarimOdevTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D321AA812722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdevTests" */;
+			buildPhases = (
+				D321AA662722FB2A00549240 /* Sources */,
+				D321AA672722FB2A00549240 /* Frameworks */,
+				D321AA682722FB2A00549240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D321AA6C2722FB2A00549240 /* PBXTargetDependency */,
+			);
+			name = tasarimOdevTests;
+			productName = tasarimOdevTests;
+			productReference = D321AA6A2722FB2A00549240 /* tasarimOdevTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D321AA732722FB2A00549240 /* tasarimOdevUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D321AA842722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdevUITests" */;
+			buildPhases = (
+				D321AA702722FB2A00549240 /* Sources */,
+				D321AA712722FB2A00549240 /* Frameworks */,
+				D321AA722722FB2A00549240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D321AA762722FB2A00549240 /* PBXTargetDependency */,
+			);
+			name = tasarimOdevUITests;
+			productName = tasarimOdevUITests;
+			productReference = D321AA742722FB2A00549240 /* tasarimOdevUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D321AA4C2722FB2800549240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D321AA532722FB2800549240 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D321AA692722FB2A00549240 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D321AA532722FB2800549240;
+					};
+					D321AA732722FB2A00549240 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D321AA532722FB2800549240;
+					};
+				};
+			};
+			buildConfigurationList = D321AA4F2722FB2800549240 /* Build configuration list for PBXProject "tasarimOdev" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = D321AA4B2722FB2800549240;
+			productRefGroup = D321AA552722FB2800549240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D321AA532722FB2800549240 /* tasarimOdev */,
+				D321AA692722FB2A00549240 /* tasarimOdevTests */,
+				D321AA732722FB2A00549240 /* tasarimOdevUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D321AA522722FB2800549240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D321AA642722FB2A00549240 /* LaunchScreen.storyboard in Resources */,
+				D321AA612722FB2A00549240 /* Assets.xcassets in Resources */,
+				D321AA5F2722FB2800549240 /* Main.storyboard in Resources */,
+				D321AA892723110400549240 /* PatrickHand-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA682722FB2A00549240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA722722FB2A00549240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D321AA502722FB2800549240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D321AA5C2722FB2800549240 /* ViewController.swift in Sources */,
+				D321AA582722FB2800549240 /* AppDelegate.swift in Sources */,
+				D321AA5A2722FB2800549240 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA662722FB2A00549240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D321AA6F2722FB2A00549240 /* tasarimOdevTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D321AA702722FB2A00549240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D321AA7B2722FB2A00549240 /* tasarimOdevUITestsLaunchTests.swift in Sources */,
+				D321AA792722FB2A00549240 /* tasarimOdevUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D321AA6C2722FB2A00549240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D321AA532722FB2800549240 /* tasarimOdev */;
+			targetProxy = D321AA6B2722FB2A00549240 /* PBXContainerItemProxy */;
+		};
+		D321AA762722FB2A00549240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D321AA532722FB2800549240 /* tasarimOdev */;
+			targetProxy = D321AA752722FB2A00549240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D321AA5D2722FB2800549240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D321AA5E2722FB2800549240 /* Base */,
+				D321AA8A27234E6200549240 /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D321AA622722FB2A00549240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D321AA632722FB2A00549240 /* Base */,
+				D321AA8B27234E6200549240 /* tr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D321AA7C2722FB2A00549240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D321AA7D2722FB2A00549240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D321AA7F2722FB2A00549240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tasarimOdev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D321AA802722FB2A00549240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tasarimOdev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D321AA822722FB2A00549240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasarimOdev.app/tasarimOdev";
+			};
+			name = Debug;
+		};
+		D321AA832722FB2A00549240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasarimOdev.app/tasarimOdev";
+			};
+			name = Release;
+		};
+		D321AA852722FB2A00549240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tasarimOdev;
+			};
+			name = Debug;
+		};
+		D321AA862722FB2A00549240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R95WFBQ6GA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berivan.tasarimOdevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tasarimOdev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D321AA4F2722FB2800549240 /* Build configuration list for PBXProject "tasarimOdev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D321AA7C2722FB2A00549240 /* Debug */,
+				D321AA7D2722FB2A00549240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D321AA7E2722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D321AA7F2722FB2A00549240 /* Debug */,
+				D321AA802722FB2A00549240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D321AA812722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdevTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D321AA822722FB2A00549240 /* Debug */,
+				D321AA832722FB2A00549240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D321AA842722FB2A00549240 /* Build configuration list for PBXNativeTarget "tasarimOdevUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D321AA852722FB2A00549240 /* Debug */,
+				D321AA862722FB2A00549240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D321AA4C2722FB2800549240 /* Project object */;
+}

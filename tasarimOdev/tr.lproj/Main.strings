@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; configuration.title = "Tools"; ObjectID = "0BA-cx-2Ac"; */
+"0BA-cx-2Ac.configuration.title" = "Araçlar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0BA-cx-2Ac"; */
+"0BA-cx-2Ac.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "This is so delicious!"; ObjectID = "86y-af-BXl"; */
+"86y-af-BXl.text" = "Çok lezzetli!";
+
+/* Class = "UIButton"; configuration.title = "Ingredients"; ObjectID = "93g-kF-oqy"; */
+"93g-kF-oqy.configuration.title" = "İçindekiler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "93g-kF-oqy"; */
+"93g-kF-oqy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "🔹 225 g kidney beans  🔹 120 g maple syrup  🔹 75 g wainuts  🔹 1/2 tsp baking powder  🔹 3 eggs"; ObjectID = "LBk-lr-ffF"; */
+"LBk-lr-ffF.text" = "🔹 225 g fasulye  🔹 120 g akçaağaç şurubu  🔹 75 g ceviz  🔹 1/2 ölçek kabartma tozu  🔹 3 yumurta";
+
+/* Class = "UILabel"; text = "⭐ 4.9"; ObjectID = "QkL-4k-PSw"; */
+"QkL-4k-PSw.text" = "⭐ 4.9";
+
+/* Class = "UIButton"; configuration.title = "Start Cooking"; ObjectID = "VNx-NC-TYz"; */
+"VNx-NC-TYz.configuration.title" = "Pişirmeye Başla";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VNx-NC-TYz"; */
+"VNx-NC-TYz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Steps"; ObjectID = "c3y-Id-Ibv"; */
+"c3y-Id-Ibv.configuration.title" = "Adımlar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "c3y-Id-Ibv"; */
+"c3y-Id-Ibv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "🔥 820 kcal"; ObjectID = "i8I-de-2wP"; */
+"i8I-de-2wP.text" = "🔥 820 kcal";
+
+/* Class = "UILabel"; text = "⌛ 40 min"; ObjectID = "oK7-Rq-ERW"; */
+"oK7-Rq-ERW.text" = "⌛ 40 dk";
